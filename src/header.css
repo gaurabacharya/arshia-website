@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.name {
+    color: #fff;
+    font-weight: bold;
+    float: left;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+.header {
+    background-color: #FFB6C1;
+    padding: 20px;
+    height: 50px;
+    width: 100%; /* Now spans the entire width of the screen */
+    overflow-x: visible;
+    display: flex;         /* Use flex layout */
+    align-items: center;   /* Vertically center content */
+    justify-content: space-between; /* Space between elements */
+}
+  
+.navbar {
+    display: flex;
+    justify-content: right;
+    justify-items: center;
+}
+  
+  .navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navItem {
+    margin: 0 15px;
+  }
+  
+  .navItem a {
+    color: #ffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navItem a:hover {
+    color: #8bdaff;
+  }
+
+  .iconLinks {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .iconLinks a {
+    color: #ffffff; /* Icon color */
+    transition: color 0.3s ease;
+  }
+  
+  .iconLinks a:hover {
+    color: #f300cf; /* Change color on hover */
+  }

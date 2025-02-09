@@ -1,0 +1,45 @@
+.carousel-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;  /* Centers items vertically */
+    justify-content: center;
+    width: 80%;
+    max-width: 900px; /* Adjusted for better layout */
+    margin: auto;
+    padding: 40px 0;
+    gap: 20px; /* Adds spacing between text and carousel */
+}
+
+.carousel-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers text vertically */
+    max-width: 400px;
+    padding-right: 20px;
+    height: 100%; /* Ensures it takes full height */
+}
+
+.carousel-text h1 {
+    font-size: 2rem;
+    color: #FF69B4;
+    margin-bottom: 10px;
+}
+
+.carousel-text p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.photo-carousel {
+    max-width: 500px;
+    display: flex;
+    align-items: center; /* Ensures alignment with text */
+}
+
+.carousel-image {
+    border-radius: 10px;
+    width: 100%;
+    height: 300px; /* Set a fixed height for consistency */
+    object-fit: cover; 
+    object-position: center; 
+}
